@@ -68,8 +68,7 @@ print("\nNumber of Numerical Columns:", len(numerical_columns))
 print("Number of Categorical Columns:", len(categorical_columns))
 
 
-# Check target column
-print("\n--- Sale Price Check ---")
+print("\n--- Sale Price Check ---")                                 #Check the targeted columns
 
 print("Missing Sale Prices:", df["SalePrice"].isnull().sum())
 print("\nSale Price Summary:")
